@@ -18,8 +18,8 @@ Sample app download link
 https://play.google.com/store/apps/details?id=com.shakej.custom.graph
 
 
-![alt tag](https://github.com/ShakeJ/Android-Circle-Graph/blob/master/screenshot1.png?raw=true)
-![alt tag](https://github.com/ShakeJ/Android-Circle-Graph/blob/master/screenshot.png?raw=true)
+![alt tag](https://github.com/ShakeJ/Android-Circle-Graph/blob/master/screenshot1.png)
+![alt tag](https://github.com/ShakeJ/Android-Circle-Graph/blob/master/screenshot2.png)
 
 
 
