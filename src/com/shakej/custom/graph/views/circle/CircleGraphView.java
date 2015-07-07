@@ -1,4 +1,4 @@
-package com.shakej.circle.graph.views;
+package com.shakej.custom.graph.views.circle;
 
 import java.util.ArrayList;
 
@@ -8,10 +8,9 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewTreeObserver;
 import android.widget.LinearLayout;
 
-import com.shakej.circle.graph.R;
+import com.shakej.custom.graph.R;
 
 public class CircleGraphView extends LinearLayout
 {
@@ -64,7 +63,7 @@ public class CircleGraphView extends LinearLayout
         
         for (int i = 0; i < beans.size(); i++)
         {
-          InnerGraphView graphView = new InnerGraphView(context);
+          InnerCircleView graphView = new InnerCircleView(context);
           graphView.setData(beans.get(i));
           container.addView(graphView);
         }
