@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Material.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorPrimary">@color/appcolor</item>
+        <item name="android:colorPrimaryDark">@color/appcolor_dark</item>
+    </style>
+
+</resources>

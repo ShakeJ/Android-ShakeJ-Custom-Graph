@@ -1,4 +1,4 @@
-package com.shakej.circle.graph.views;
+package com.shakej.custom.graph.views.circle;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,9 +13,9 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.shakej.circle.graph.R;
+import com.shakej.custom.graph.R;
 
-public class InnerGraphView extends LinearLayout
+public class InnerCircleView extends LinearLayout
 {
   private Context context;
   private TextView title;
@@ -25,7 +25,7 @@ public class InnerGraphView extends LinearLayout
   private RelativeLayout circleContainer;
   
   
-  public InnerGraphView(Context context)
+  public InnerCircleView(Context context)
   {
     super(context);
     this.context = context;
@@ -33,7 +33,7 @@ public class InnerGraphView extends LinearLayout
   }
   
   
-  public InnerGraphView(Context context, AttributeSet attrs)
+  public InnerCircleView(Context context, AttributeSet attrs)
   {
     super(context, attrs);
     this.context = context;

@@ -1,11 +1,19 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
-    <com.shakej.circle.graph.views.CircleGraphView
-        android:id="@+id/circle_graph"
+    <Button
+        android:id="@+id/btn_circle_graph"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:text="Circle Graph" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/btn_water_graph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Water Graph" />
+
+</LinearLayout>

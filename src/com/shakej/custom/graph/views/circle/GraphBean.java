@@ -1,4 +1,4 @@
-package com.shakej.circle.graph.views;
+package com.shakej.custom.graph.views.circle;
 
 public class GraphBean
 {
