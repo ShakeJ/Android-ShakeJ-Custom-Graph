@@ -2,7 +2,10 @@ package com.shakej.custom.graph.activities;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -34,4 +37,24 @@ public class MainActivity extends Activity
       }
     });
   }
+  
+  
+  @Override
+  public boolean onCreateOptionsMenu(Menu menu)
+  {
+    getMenuInflater().inflate(R.menu.main, menu);
+    return true;
+  }
+  
+  
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item)
+  {
+    String url = "https://github.com/ShakeJ/Android-Circle-Graph";
+    Intent i = new Intent(Intent.ACTION_VIEW);
+    i.setData(Uri.parse(url));
+    startActivity(i);
+    return super.onOptionsItemSelected(item);
+  }
+  
 }
